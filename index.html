@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaguar Electric Car</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        /* Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff8eb0, #ff5783, #ff2a5e);
+            color: white;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+        }
+        /* Logo */
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .logo img {
+            width: 120px;
+        }
+        /* Header Box */
+        .header-box {
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ff2a5e, #ff5783);
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            max-width: 90%;
+            margin: 20px auto;
+        }
+        .header-box h1 {
+            font-size: 4rem;
+            color: #fffcfc; /* Light Pink Color */
+            letter-spacing: 3px;
+            text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        .header-box p {
+            font-size: 1.5rem;
+            color: #ffe6eb;
+            font-weight: 600;
+        }
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 20px;
+            border-radius: 20px;
+            width: 30%;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(255, 77, 122, 0.7);
+        }
+        .feature-card h2 {
+            font-size: 1.7rem;
+            color: #fff8f8;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            font-size: 1.1rem;
+            color: #fcd9e4;
+        }
+        .feature-card i {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        /* Gallery Section */
+        .gallery {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 32%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 35px rgba(255, 255, 255, 0.5);
+        }
+        /* Consultant Section */
+        .consultant {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+        }
+        .consultant h2 {
+            font-size: 1.8rem;
+            color: #fff8f8;
+        }
+        .consultant p {
+            font-size: 1.2rem;
+            color: #fce4ec;
+        }
+        .consultant a {
+            color: #ffebef;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .consultant a:hover {
+            text-decoration: underline;
+        }
+        /* Logo */
+.logo img {
+    width: 120px;
+    border-radius: 15px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Adds a subtle shadow for effect */
+}
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="jaguarlogo.jpg.avif" alt="Jaguar Logo">
+    </div>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header-box">
+            <h1>Jaguar's Electric Icon</h1>
+            <p>Grace, Space, and Zero Emissions.</p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="features">
+            <div class="feature-card">
+                <i class="fa fa-bolt"></i>
+                <h2>High Performance</h2>
+                <p>Experience the thrill of power with Jaguar's electric performance.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa fa-leaf"></i>
+                <h2>Eco-Friendly</h2>
+                <p>Reduce your carbon footprint with zero emissions driving.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa fa-plug"></i>
+                <h2>Fast Charging</h2>
+                <p>Charge your car in no time with Jaguar's advanced technology.</p>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery">
+            <img src="jaguar4.jpg" alt="Jaguar Electric Car 1">
+            <img src="jaguar2.avif" alt="Jaguar Electric Car 2">
+            <img src="jaguar3.jpg.jxl"Jaguar Electric Car 3">
+        </div>
+
+        <!-- Consultant Section -->
+        <div class="consultant">
+            <h2>Car Consultant Manager</h2>
+            <p>For more information, contact <strong>Kruthika</strong></p>
+            <p>Email: <a href="mailto:kruthika@jaguar.com">kruthika@jaguar.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
