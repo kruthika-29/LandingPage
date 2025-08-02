@@ -1,6 +1,6 @@
 # Jaguar Landing Page
 
-A sleek, responsive **Jaguar-themed landing page** built using **HTML**, **CSS**, and **JavaScript**, designed to showcase elegance, performance, and modern web design aesthetics.
+A basic sleek, responsive **Jaguar-themed landing page** built using **HTML**, **CSS**, and **JavaScript**, designed to showcase elegance, performance, and modern web design aesthetics.
 
 ## 🌐 Live Demo
 
