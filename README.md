@@ -30,7 +30,7 @@ This landing page was designed to reflect the bold and premium aesthetic of Jagu
 
 - **HTML5** – Page structure  
 - **CSS3** – Styling, layout, and responsiveness  
-- **JavaScript (Vanilla)** – Menu toggling, scroll effects
+- **JavaScript** 
 
 
 
