@@ -35,3 +35,6 @@ This landing page was designed to reflect the bold and premium aesthetic of Jagu
 
 
 ## 🖼️ Preview
+
+
+![output](https://github.com/kruthika-29/LandingPage/blob/main/assets/carop.png)
